@@ -1,0 +1,6 @@
+nev_teljes	mertekegyseg
+villamos energia	kWh
+földgáz	Nm3
+származtatott hő	MJ
+gázolaj	liter
+motorbenzin	liter

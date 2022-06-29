@@ -1,0 +1,45 @@
+##################################################
+# Linting and code checking
+##################################################
+pylint
+black
+black[jupyter]
+
+##################################################
+# Django
+##################################################
+pylint-django
+django>=3.2,<3.3
+django-dotenv
+django-htmx
+django-import-export # import-export feature
+
+##################################################
+# Core packages
+##################################################
+jupyter
+numpy
+
+##################################################
+# Data science and reporting
+##################################################
+matplotlib
+pandas
+seaborn
+
+##################################################
+# Database and external data
+##################################################
+SQLAlchemy
+mysql-connector-python  # MySQL
+openpyxl  # Excel
+
+##################################################
+# Additional packages
+##################################################
+aiohttp
+#more-itertools
+#WebTest
+#WSGIProxy2
+requests  # for downloads
+pint # package for units (eg. Wh)
